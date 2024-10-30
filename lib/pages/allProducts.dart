@@ -24,7 +24,7 @@ class AllProductsPage extends StatelessWidget {
           if (state is ProductsLoading) {
             return const Center(child: CircularProgressIndicator());
           } else if (state is ProductsSuccess) {
-            return Padding(
+            return Padding(////
               padding: const EdgeInsets.all(16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
